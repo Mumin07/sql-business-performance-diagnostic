@@ -10,6 +10,12 @@ This project focuses specifically on analytical diagnostics using Excel and SQL.
 
 ---
 
+📊 Analytical Workflow
+
+Raw Sales Data → Excel Cleaning → SQL Analysis → Business Insights
+
+---
+
 ## 🧠 Executive Summary
 
 • Generated approximately **$5.0M total revenue** and **$1.19M total profit**  
@@ -189,4 +195,19 @@ Revenue stability is supported by broad customer participation, reducing depende
 ---
 
 ## 📁 Repository Structure
+
+business-performance-diagnostic/
+│
+├── data/
+│     └── sales_data.xlsx
+│
+├── sql/
+│     ├── 01_overall_business_performance.sql
+│     ├── 02_monthly_trends_and_mom.sql
+│     ├── 03_regional_segment_profitability.sql
+│     ├── 04_customer_concentration.sql
+│     └── 05_product_profitability_analysis.sql
+│
+└── README.md
+
 
